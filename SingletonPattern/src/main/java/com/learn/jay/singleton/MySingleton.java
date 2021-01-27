@@ -26,6 +26,11 @@ public class MySingleton {
         return instance;
     }
 
+    /**
+     * Intentionally setting this setters access to Private
+     *
+     * @param instance
+     */
     private static void setInstance(MySingleton instance) {
         MySingleton.instance = instance;
     }
@@ -44,5 +49,19 @@ public class MySingleton {
                 this.createdDate.getMonth().toString(), this.createdDate.getDayOfYear(),
                 this.createdDate.getHour(), this.createdDate.getMinute(),
                 this.createdDate.getSecond());
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof MySingleton) {
+            MySingleton singleton = (MySingleton) obj;
+            return this.getCreatedDate().equals(singleton.getCreatedDate());
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return this.getCreatedDate().hashCode();
     }
 }

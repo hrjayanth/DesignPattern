@@ -10,8 +10,13 @@ class MySingletonTest {
     @Test
     void getInstance() throws InterruptedException {
         MySingleton singletonInstance1 = MySingleton.getInstance();
-        sleep(1000);
+        System.out.println("Singleton Instance 1: " + singletonInstance1);
+
+        sleep(10000);
+
         MySingleton singletonInstance2 = MySingleton.getInstance();
-        assertEquals(singletonInstance1.toString(), singletonInstance2.toString());
+        System.out.println("Singleton Instance 2: " + singletonInstance2);
+
+        assertEquals(singletonInstance1, singletonInstance2);
     }
 }
