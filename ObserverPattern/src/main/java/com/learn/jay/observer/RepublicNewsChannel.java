@@ -1,4 +1,4 @@
-package com.learn.jay.channels;
+package com.learn.jay.observer;
 
 public class RepublicNewsChannel implements Channel {
     private String news;

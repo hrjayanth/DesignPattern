@@ -1,6 +1,6 @@
-package com.learn.jay.agency;
+package com.learn.jay.observable;
 
-import com.learn.jay.channels.Channel;
+import com.learn.jay.observer.Channel;
 
 import java.util.ArrayList;
 import java.util.List;
