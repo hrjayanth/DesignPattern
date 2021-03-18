@@ -1,4 +1,6 @@
 rootProject.name = 'DesignPattern'
 include 'FactoryPattern'
 include 'SingletonPattern'
+include 'StrategyPattern'
+include 'ObserverPattern'
 
