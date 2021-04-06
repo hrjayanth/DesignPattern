@@ -3,4 +3,4 @@ include 'FactoryPattern'
 include 'SingletonPattern'
 include 'StrategyPattern'
 include 'ObserverPattern'
-
+include 'DecoratorPattern'
