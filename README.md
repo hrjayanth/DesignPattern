@@ -11,7 +11,7 @@
     * **Adapter:** Allows for two incompatible classes to work together by wrapping an interface around one of the existing classes.
     * **Bridge:** Decouples an abstraction so two classes can vary independently.
     * **Composite:** Takes a group of objects into a single object.
-    * Decorator: Allows for an object’s behavior to be extended dynamically at run time.
+    * **Decorator:** Allows for an object's behavior to be extended dynamically at run time.
     * **Facade:** Provides a simple interface to a more complex underlying object.
     * **Flyweight:** Reduces the cost of complex object models.
     * **Proxy:** Provides a placeholder interface to an underlying object to control access, reduce cost, or reduce complexity.
@@ -28,3 +28,12 @@
     * **Strategy:** Allows one of a family of algorithms to be selected on-the-fly at run-time.
     * **Template Method:** Defines the skeleton of an algorithm as an abstract class, allowing its sub-classes to provide concrete behavior.
     * **Visitor:** Separates an algorithm from an object structure by moving the hierarchy of methods into one object.
+
+## Reference
+
+```
+Design Patterns: Elements of Reusable Object-Oriented Software
+by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+Released October 1994
+Publisher(s): Addison-Wesley Professional
+```
