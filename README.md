@@ -32,8 +32,13 @@
 ## Reference
 
 ```
-Design Patterns: Elements of Reusable Object-Oriented Software
-by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
-Released October 1994
-Publisher(s): Addison-Wesley Professional
+* Design Patterns: Elements of Reusable Object-Oriented Software
+  by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+  Released October 1994
+  Publisher(s): Addison-Wesley Professional
+
+* Head First Design Patterns
+  by Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra
+  Released October 2004
+  Publisher(s): O'Reilly Media, Inc.
 ```
