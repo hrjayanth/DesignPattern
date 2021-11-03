@@ -8,3 +8,5 @@ include 'BuilderPattern'
 include 'CommandPattern'
 include 'FacadePattern'
 include 'TemplateMethodPattern'
+include 'StatePattern'
+
