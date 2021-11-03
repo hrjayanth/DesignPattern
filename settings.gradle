@@ -9,4 +9,5 @@ include 'CommandPattern'
 include 'FacadePattern'
 include 'TemplateMethodPattern'
 include 'StatePattern'
+include 'ProxyPattern'
 
