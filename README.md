@@ -16,7 +16,7 @@
     * **Flyweight:** Reduces the cost of complex object models.
     * **Proxy:** Provides a placeholder interface to an underlying object to control access, reduce cost, or reduce complexity.
 
-3. Behavior Design Patterns
+3. Behavioral Design Patterns
     * **Chain of Responsibility:** Delegates commands to a chain of processing objects.
     * **Command:** Creates objects which encapsulate actions and parameters.
     * **Interpreter:** Implements a specialized language.
