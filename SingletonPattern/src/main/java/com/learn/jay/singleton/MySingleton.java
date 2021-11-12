@@ -2,9 +2,6 @@ package com.learn.jay.singleton;
 
 import java.time.LocalDateTime;
 
-/**
- * Created by Jayanta for learning purpose
- */
 public class MySingleton {
     private static MySingleton instance;
 
