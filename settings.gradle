@@ -13,4 +13,5 @@ include 'ProxyPattern'
 include 'BridgePattern'
 include 'IteratorPattern'
 include 'VisitorPattern'
+include 'AdapterPattern'
 

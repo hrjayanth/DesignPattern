@@ -8,7 +8,7 @@
     * **[Singleton](./SingletonPattern/README.md):** Ensures only one instance of an object is created.
 
 2. Structural Design Patterns
-    * **Adapter:** Allows for two incompatible classes to work together by wrapping an interface around one of the existing classes.
+    * **[Adapter](./AdapterPattern/README.md):** Allows for two incompatible classes to work together by wrapping an interface around one of the existing classes.
     * **[Bridge](./BridgePattern/README.md):** Decouples an abstraction so two classes can vary independently.
     * **Composite:** Takes a group of objects into a single object.
     * **[Decorator](./DecoratorPattern/README.md):** Allows for an object's behavior to be extended dynamically at run time.
