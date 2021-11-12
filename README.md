@@ -10,7 +10,7 @@
 2. Structural Design Patterns
     * **[Adapter](./AdapterPattern/README.md):** Allows for two incompatible classes to work together by wrapping an interface around one of the existing classes.
     * **[Bridge](./BridgePattern/README.md):** Decouples an abstraction so two classes can vary independently.
-    * **Composite:** Takes a group of objects into a single object.
+    * **[Composite](./CompositePattern/README.md):** Takes a group of objects into a single object.
     * **[Decorator](./DecoratorPattern/README.md):** Allows for an object's behavior to be extended dynamically at run time.
     * **[Facade](./FacadePattern/README.md):** Provides a simple interface to a more complex underlying object.
     * **Flyweight:** Reduces the cost of complex object models.
