@@ -7,3 +7,9 @@
 ## Class Diagram
 
 ![FactoryPattern](https://user-images.githubusercontent.com/73529297/141454940-cbf9a7a8-2c5d-4b72-b705-56739edc09c7.jpg)
+
+## When to Use Factory Pattern
+
+* When the implementation of an interface or an abstract class is expected to change frequently
+* When the current implementation cannot comfortably accommodate new change
+* When the initialization process is relatively simple, and the constructor only requires a handful of parameters
