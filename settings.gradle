@@ -15,4 +15,5 @@ include 'IteratorPattern'
 include 'VisitorPattern'
 include 'AdapterPattern'
 include 'CompositePattern'
+include 'AbstractFactoryPattern'
 

@@ -1,7 +1,7 @@
 # Gang of Four Design Patterns
 
 1. Creational Design Patterns
-    * **Abstract Factory:** Allows the creation of objects without specifying their concrete type.
+    * **[Abstract Factory](./AbstractFactoryPattern/README.md):** Allows the creation of objects without specifying their concrete type.
     * **[Builder](./BuilderPattern/README.md):** Uses to create complex objects.
     * **[Factory Method](./FactoryPattern/README.md):** Creates objects without specifying the exact class to create.
     * **Prototype:** Creates a new object from an existing object.
