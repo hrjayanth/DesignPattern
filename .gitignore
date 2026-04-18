@@ -25,5 +25,6 @@ hs_err_pid*
 .gradle
 src/*
 .idea
+.vscode
 build/*
 */build

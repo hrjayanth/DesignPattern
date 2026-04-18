@@ -17,7 +17,7 @@
     * **[Proxy](./ProxyPattern/README.md):** Provides a placeholder interface to an underlying object to control access, reduce cost, or reduce complexity.
 
 3. Behavioral Design Patterns
-    * **Chain of Responsibility:** Delegates commands to a chain of processing objects.
+    * **[Chain of Responsibility](./ChainOfResponsibility/README.md):** Delegates commands to a chain of processing objects.
     * **[Command](./CommandPattern/README.md):** Creates objects which encapsulate actions and parameters.
     * **Interpreter:** Implements a specialized language.
     * **[Iterator](./IteratorPattern/README.md):** Accesses the elements of an object sequentially without exposing its underlying representation.
