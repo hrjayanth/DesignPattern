@@ -26,5 +26,5 @@ hs_err_pid*
 src/*
 .idea
 .vscode
-build/*
-*/build
+build/
+**/build/
