@@ -5,6 +5,7 @@ include("CreationalDesignPattern:AbstractFactoryPattern")
 include("CreationalDesignPattern:BuilderPattern")
 include("CreationalDesignPattern:FactoryPattern")
 include("CreationalDesignPattern:SingletonPattern")
+include("CreationalDesignPattern:PrototypePattern")
 
 // Structural Design Patterns
 include("StructuralDesignPattern:AdapterPattern")

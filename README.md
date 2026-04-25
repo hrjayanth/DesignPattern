@@ -1,33 +1,58 @@
 # Gang of Four Design Patterns
 
-1. Creational Design Patterns
-    * **[Abstract Factory](./CreationalDesignPattern/AbstractFactoryPattern/README.md):** Allows the creation of objects without specifying their concrete type.
-    * **[Builder](./CreationalDesignPattern/BuilderPattern/README.md):** Uses to create complex objects.
-    * **[Factory Method](./CreationalDesignPattern/FactoryPattern/README.md):** Creates objects without specifying the exact class to create.
-    * **Prototype:** Creates a new object from an existing object.
-    * **[Singleton](./CreationalDesignPattern/SingletonPattern/README.md):** Ensures only one instance of an object is created.
+The **Gang of Four (GoF)** refers to the four authors — Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides — who published the seminal book *"Design Patterns: Elements of Reusable Object-Oriented Software"* (1994). The book defines **23 classic design patterns** grouped into three categories based on their purpose.
 
-2. Structural Design Patterns
-    * **[Adapter](./StructuralDesignPattern/AdapterPattern/README.md):** Allows for two incompatible classes to work together by wrapping an interface around one of the existing classes.
-    * **[Bridge](./StructuralDesignPattern/BridgePattern/README.md):** Decouples an abstraction so two classes can vary independently.
-    * **[Composite](./StructuralDesignPattern/CompositePattern/README.md):** Takes a group of objects into a single object.
-    * **[Decorator](./StructuralDesignPattern/DecoratorPattern/README.md):** Allows for an object's behavior to be extended dynamically at run time.
-    * **[Facade](./StructuralDesignPattern/FacadePattern/README.md):** Provides a simple interface to a more complex underlying object.
-    * **Flyweight:** Reduces the cost of complex object models.
-    * **[Proxy](./StructuralDesignPattern/ProxyPattern/README.md):** Provides a placeholder interface to an underlying object to control access, reduce cost, or reduce complexity.
+---
 
-3. Behavioral Design Patterns
-    * **[Chain of Responsibility](./BehaviourDesignPattern/ChainOfResponsibility/README.md):** Delegates commands to a chain of processing objects.
-    * **[Command](./BehaviourDesignPattern/CommandPattern/README.md):** Creates objects which encapsulate actions and parameters.
-    * **Interpreter:** Implements a specialized language.
-    * **[Iterator](./BehaviourDesignPattern/IteratorPattern/README.md):** Accesses the elements of an object sequentially without exposing its underlying representation.
-    * **Mediator:** Allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
-    * **Memento:** Provides the ability to restore an object to its previous state.
-    * **[Observer](./BehaviourDesignPattern/ObserverPattern/README.md):** Is a publish/subscribe pattern which allows a number of observer objects to see an event.
-    * **[State](./BehaviourDesignPattern/StatePattern/README.md):** Allows an object to alter its behavior when its internal state changes.
-    * **[Strategy](./BehaviourDesignPattern/StrategyPattern/README.md):** Allows one of a family of algorithms to be selected on-the-fly at run-time.
-    * **[Template Method](./BehaviourDesignPattern/TemplateMethodPattern/README.md):** Defines the skeleton of an algorithm as an abstract class, allowing its sub-classes to provide concrete behavior.
-    * **[Visitor](./BehaviourDesignPattern/VisitorPattern/README.md):** Separates an algorithm from an object structure by moving the hierarchy of methods into one object.
+## 1. 🏗️ Creational Design Patterns
+
+Creational patterns are concerned with **how objects are created**. They abstract the instantiation process, making a system independent of how its objects are created, composed, and represented. Instead of instantiating objects directly using constructors, creational patterns provide mechanisms that give greater flexibility in deciding which objects need to be created for a given use case.
+
+| Pattern | Intent |
+|---|---|
+| **[Abstract Factory](./CreationalDesignPattern/AbstractFactoryPattern/README.md)** | Provides an interface for creating families of related or dependent objects without specifying their concrete classes. |
+| **[Builder](./CreationalDesignPattern/BuilderPattern/README.md)** | Separates the construction of a complex object from its representation, allowing the same construction process to create different representations. |
+| **[Factory Method](./CreationalDesignPattern/FactoryPattern/README.md)** | Defines an interface for creating an object, but lets subclasses decide which class to instantiate. |
+| **[Prototype](./CreationalDesignPattern/PrototypePattern/README.md)** | Specifies the kinds of objects to create using a prototypical instance, and creates new objects by copying (cloning) this prototype. |
+| **[Singleton](./CreationalDesignPattern/SingletonPattern/README.md)** | Ensures a class has only one instance and provides a global point of access to it. |
+
+---
+
+## 2. 🧱 Structural Design Patterns
+
+Structural patterns are concerned with **how classes and objects are composed** to form larger structures. They use inheritance and composition to assemble objects and classes into more complex structures, while keeping those structures flexible and efficient.
+
+| Pattern | Intent |
+|---|---|
+| **[Adapter](./StructuralDesignPattern/AdapterPattern/README.md)** | Converts the interface of a class into another interface that clients expect, allowing incompatible interfaces to work together. |
+| **[Bridge](./StructuralDesignPattern/BridgePattern/README.md)** | Decouples an abstraction from its implementation so that the two can vary independently. |
+| **[Composite](./StructuralDesignPattern/CompositePattern/README.md)** | Composes objects into tree structures to represent part-whole hierarchies, letting clients treat individual objects and compositions uniformly. |
+| **[Decorator](./StructuralDesignPattern/DecoratorPattern/README.md)** | Attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality. |
+| **[Facade](./StructuralDesignPattern/FacadePattern/README.md)** | Provides a unified, simplified interface to a set of interfaces in a subsystem, making it easier to use. |
+| **Flyweight** *(coming soon)* | Uses sharing to efficiently support a large number of fine-grained objects, reducing memory cost of complex object models. |
+| **[Proxy](./StructuralDesignPattern/ProxyPattern/README.md)** | Provides a surrogate or placeholder for another object to control access, reduce cost, or add additional behaviour. |
+
+---
+
+## 3. 🔄 Behavioural Design Patterns
+
+Behavioural patterns are concerned with **how objects interact and communicate** with each other. They characterize complex control flow that is difficult to follow at run-time, shifting focus away from control flow and towards the way objects are interconnected and delegate responsibility.
+
+| Pattern | Intent |
+|---|---|
+| **[Chain of Responsibility](./BehaviourDesignPattern/ChainOfResponsibility/README.md)** | Avoids coupling the sender of a request to its receiver by giving more than one object a chance to handle the request, passing it along a chain. |
+| **[Command](./BehaviourDesignPattern/CommandPattern/README.md)** | Encapsulates a request as an object, allowing parameterization of clients with different requests, queuing, and support for undoable operations. |
+| **Interpreter** *(coming soon)* | Given a language, defines a representation for its grammar along with an interpreter that uses the representation to interpret sentences. |
+| **[Iterator](./BehaviourDesignPattern/IteratorPattern/README.md)** | Provides a way to sequentially access the elements of an aggregate object without exposing its underlying representation. |
+| **Mediator** *(coming soon)* | Defines an object that encapsulates how a set of objects interact, promoting loose coupling by keeping objects from referring to each other explicitly. |
+| **Memento** *(coming soon)* | Without violating encapsulation, captures and externalises an object's internal state so that the object can be restored to this state later. |
+| **[Observer](./BehaviourDesignPattern/ObserverPattern/README.md)** | Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. |
+| **[State](./BehaviourDesignPattern/StatePattern/README.md)** | Allows an object to alter its behaviour when its internal state changes, appearing as if the object has changed its class. |
+| **[Strategy](./BehaviourDesignPattern/StrategyPattern/README.md)** | Defines a family of algorithms, encapsulates each one, and makes them interchangeable, letting the algorithm vary independently from clients that use it. |
+| **[Template Method](./BehaviourDesignPattern/TemplateMethodPattern/README.md)** | Defines the skeleton of an algorithm in an operation, deferring some steps to subclasses without changing the algorithm's overall structure. |
+| **[Visitor](./BehaviourDesignPattern/VisitorPattern/README.md)** | Represents an operation to be performed on the elements of an object structure, letting you define a new operation without changing the classes of the elements. |
+
+---
 
 ## Reference
 
