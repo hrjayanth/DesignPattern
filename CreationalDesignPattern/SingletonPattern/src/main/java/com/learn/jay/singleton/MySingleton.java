@@ -28,6 +28,7 @@ public class MySingleton {
      *
      * @param instance
      */
+    @SuppressWarnings("unused")
     private static void setInstance(MySingleton instance) {
         MySingleton.instance = instance;
     }
@@ -43,7 +44,7 @@ public class MySingleton {
     @Override
     public String toString() {
         return String.format("%s-%s-%s :: %s:%s:%s", this.getCreatedDate().getYear(),
-                this.createdDate.getMonth().toString(), this.createdDate.getDayOfYear(),
+                this.createdDate.getMonth().toString(), this.createdDate.getDayOfMonth(),
                 this.createdDate.getHour(), this.createdDate.getMinute(),
                 this.createdDate.getSecond());
     }

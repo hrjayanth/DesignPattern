@@ -18,10 +18,15 @@ java {
 
 subprojects {
     apply(plugin = "java")
+    apply(plugin = "application")
 
     configure<JavaPluginExtension> {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
+    }
+
+    configure<JavaApplication> {
+        mainClass.set("com.learn.jay.MainClass")
     }
 
     dependencies {

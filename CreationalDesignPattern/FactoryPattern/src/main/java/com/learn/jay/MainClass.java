@@ -1,10 +1,10 @@
-package com.learn.jay.tester;
+package com.learn.jay;
 
 import com.learn.jay.factory.ShapeFactory;
 import com.learn.jay.shapes.Shape;
 import com.learn.jay.utils.ShapeType;
 
-public class TesterClass {
+public class MainClass {
     public static void main(String[] args) {
         getAndDrawShape(ShapeType.CIRCLE);
         getAndDrawShape(ShapeType.RECTANGLE);
